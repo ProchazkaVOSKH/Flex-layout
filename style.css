@@ -1,0 +1,33 @@
+/* vynulování předem definovaných vzdáleností  */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+/* nastavení layoutu pomocí FlexBoxu  */
+#container {
+  display: flex;
+}
+#menu {
+  flex: 1;
+}
+#obsah {
+  flex: 3;
+}
+#pravy-panel {
+  flex: 1;
+}
+.boxy {
+  padding: 20px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+}
+/* odstranění dekorací u odkazů v menu */
+#menu li {
+  list-style-type: none;
+}
+#menu a {
+  text-decoration: none;
+}
